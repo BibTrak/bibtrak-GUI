@@ -46,7 +46,7 @@ input:focus {
     color: black;
 }
 
-.searchBar input{
+.searchBar input, #directory{
     margin-right: 1em;
     border-radius: 3pt;
     border-color: #26C6DA;
@@ -72,8 +72,19 @@ input:focus {
     left:50%;
 }
 
+#setDirectory{
+    width: 3em;
+    height: 2.5em;
+    border-radius: 3pt;
+    font-family:'Montserrat', sans-serif;
+    border: 0;
+    color: white;
+    background-color: #26C6DA;
+    margin-bottom: 4em;
+}
 
-#searchButton:hover, #addButton:hover, #fileButton:hover{
+
+#searchButton:hover, #addButton:hover, #fileButton:hover, #setDirectory:hover{
     cursor: pointer; 
     background-color: #00838F;
 }

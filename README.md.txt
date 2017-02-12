@@ -1,0 +1,3 @@
+# BibTrak GUI
+
+![](ProofOfConcept.png)
