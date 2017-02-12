@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BibTrak</title>
+	<link REL="StyleSheet" TYPE="text/css" HREF="../css/index.css">
+<!--    Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script type= "text/javascript" src="../main.js"></script>
+    <script  type= "text/javascript" src="../JustDoIt.js"></script>
+    
+</head>
+
+<body>
+    <section class="menu">
+        <h1>BibTrak</h1>
+         
+
+        <section class="options">
+            <input id="directory" type= "text" size="25" maxlength="25" onfocus="if(this.value == value) { this.value = ''; }"  value="Set Directory"> 
+            <button type="button" id="setDirectory">set</button>
+            
+            <br>
+            
+            <h3>Databases:</h3>
+             <select id="dataBase"> 
+                 <option value="null">None</option>    
+                 <option value="american">arXiv</option>    
+                 <option value="italian">ADS</option>    
+                 <option value="mexican">inSPIRE</option>        
+             </select>
+            
+            
+             <h3>Author: </h3>
+             <section class="searchBar">
+                <input id="author" type= "text" size="25" maxlength="25" onfocus="if(this.value == value) { this.value = ''; }"  value="Enter Author Name">
+             </section>
+            
+             <h3>ID Number: </h3>
+             <section class="searchBar">
+                <input id="idNum" type= "text" size="25" maxlength="25" onfocus="if(this.value == value) { this.value = ''; }"  value="Enter ID">
+             </section>
+        
+
+             <button type="button" id="searchButton">Search</button>
+            
+            <hr>
+            <section class= "add">
+                <h2 id = "addTitle">Add New</h2>
+                <br>
+                <h3>Databases:</h3>
+             
+                 <select id="addDataBase"> 
+                     <option value="null">None</option>    
+                     <option value="american">arXiv</option>    
+                     <option value="italian">ADS</option>    
+                     <option value="mexican">inSPIRE</option>        
+                 </select>
+             <br>
+                
+                <h3>ID Number:</h3>
+                <section class="searchBar">
+                    <input id="addID" type= "text" size="25" maxlength="25" onfocus="if(this.value == value) { this.value = ''; }"  value="Enter ID">
+                 </section>
+                <button type="button" id="addButton">Add</button>
+            </section>
+        </section>
+    </section>
+    
+    <section id="resultPage">
+        
+<!--
+        <section> 
+            <a id= "click" href="#">Close Menu</a> 
+        </section>
+-->
+        <section class="results">
+            <section class="bookmark">
+                <p class= "auth"><strong>Author:</strong> asadsfasdf</p>
+                <p><strong>ID:</strong> 1234</p>
+                <button type="button" id="fileButton">Open File</button>
+                <p id="deleteButton">Delete</p>
+            </section>
+        </section>
+        
+        <section class="results">
+            <section class="bookmark">
+                <p class= "auth"><strong>Author:</strong> asadsfasdf</p>
+                <p><strong>ID:</strong> 1234</p>
+                <button type="button" id="fileButton">Open File</button>
+                <p id="deleteButton">Delete</p>
+            </section>
+        </section>
+        
+        <section class="results">
+            <section class="bookmark">
+                <p class= "auth"><strong>Author:</strong> asadsfasdf</p>
+                <p><strong>ID:</strong> 1234</p>
+                <button type="button" id="fileButton">Open File</button>
+                <p id="deleteButton">Delete</p>
+            </section>
+        </section>
+        
+        <section class="results">
+            <section class="bookmark">
+                <p class= "auth"><strong>Author:</strong> asadsfasdf</p>
+                <p><strong>ID:</strong> 1234</p>
+                <button type="button" id="fileButton">Open File</button>
+                <p id="deleteButton">Delete</p>
+            </section>
+        </section>
+        
+        <section class="results">
+            <section class="bookmark">
+                <p class= "auth"><strong>Author:</strong> asadsfasdf</p>
+                <p><strong>ID:</strong> 1234</p>
+                <button type="button" id="fileButton">Open File</button>
+                <p id="deleteButton">Delete</p>
+            </section>
+        </section>
+        
+        <section class="results">
+            <section class="bookmark">
+                <p class= "auth"><strong>Author:</strong> asadsfasdf</p>
+                <p><strong>ID:</strong> 1234</p>
+                <button type="button" id="fileButton">Open File</button>
+                <p id="deleteButton">Delete</p>
+            </section>
+        </section>
+        
+    </section>
+</body>

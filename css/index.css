@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Reem+Kufi|Handlee|Caveat+Brush');
+
+body{
+    position: relative;
+    margin: 0 auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    position: relative;
+    width: 20em; 
+    height: 100vh;
+    float: left;
+    z-index: 1;
+    background-color:#424242;
+}
+
+h1{
+    margin-top: 0pt;
+    text-align: center;
+    padding-top: .3em;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 30pt;
+    color: white; 
+    background-color: rgba(0, 188, 212, .4);
+}
+
+h3{
+    width: 4.5em;
+    display: inline;
+    font-family: 'Reem Kufi', sans-serif;
+    color: white;
+    font-size: 15pt;
+   
+    letter-spacing: 2px;
+    margin-bottom: 
+}
+
+input:not(:focus){
+    color: #26C6DA;
+}
+
+input:focus {
+    color: black;
+}
+
+.searchBar input{
+    margin-right: 1em;
+    border-radius: 3pt;
+    border-color: #26C6DA;
+    height: 2em;
+    font-family:'Montserrat', sans-serif;
+    margin-bottom: 1em;
+    border-width: 3px;
+    border-style: solid;
+    text-indent: 5pt;
+}
+
+#searchButton, #addButton{
+    width: 6em;
+    height: 2.5em;
+    border-radius: 3pt;
+    font-family:'Montserrat', sans-serif;
+    border: 0;
+    color: white;
+    background-color: #26C6DA;
+    margin: 20px -10px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+
+#searchButton:hover, #addButton:hover, #fileButton:hover{
+    cursor: pointer; 
+    background-color: #00838F;
+}
+
+.options{
+    padding-left: 3.5em;
+}
+
+.options dataBase{
+    position: relative;
+    margin: 0 auto;
+}
+
+.options select{
+    margin-bottom: 2em;
+    height: 2em;
+    width: 65pt;
+    border-radius: 3pt;
+    font-family:'Montserrat', sans-serif;
+    border: 3px solid #26C6DA;
+    margin-left: 3pt;
+    margin-bottom: 1em;
+}
+
+#resultPage{
+    width: auto;
+    overflow-x: hidden;
+    background-color: #EEEEEE;
+    height: 100vh;
+}
+
+.results{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    transition: all 0.5s ease;
+    float: left;
+}
+
+.bookmark{
+    width: 15em;
+    height: auto;
+    background-color: white;
+    margin-left: 4em;
+    margin-top: 2em;
+    border: 2px solid #26C6DA;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bookmark p{
+    width: 80%;
+    padding: 0em 1em;
+    position: relative;
+    word-break:break-all;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
+
+.auth{
+    margin-bottom: 0em;
+}
+
+#fileButton{
+    width: 60pt;
+    height: 2.5em;
+    border-radius: 1pt;
+    font-family:'Montserrat', sans-serif;
+    border: 0;
+    color: white;
+    background-color: #26C6DA;
+    float: right;
+    margin-top: -10pt;
+    margin-right: 10pt;
+    margin-bottom: 10pt;
+}
+
+.auth strong:first-child{
+    display: block;
+}
+
+hr{
+    position: absolute;
+    margin: 0 auto;
+    width: 62%;
+    border: 0; 
+    height: 1px; 
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.add{
+    margin-top: 2em;
+}
+
+#addTitle{
+    margin-top: 0pt;
+    text-align: center;
+    margin-left: -2.5em;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20pt;
+    color: white;
+}
+
+#deleteButton{
+    color: lightgrey;
+    width: 3.5em;
+    padding: 0pt;
+    margin-left: 1em;
+}
+
+#deleteButton:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+
+
+
+
+
